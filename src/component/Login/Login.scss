@@ -1,0 +1,72 @@
+.loginDiv{
+    height: 344px;
+    width: 500px;
+    
+   // border: 1px solid gray;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 30px 0px grey;
+}
+
+.loginControl{
+    margin: 0px auto;
+    text-align: center;
+}
+
+h2{
+   
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: darkblue;
+  @supports (--css: variables) {
+    background: linear-gradient(45deg, rgb(228, 62, 172), darkblue); // create bg gradient
+    color: transparent; // hide text fill
+    background-clip: text; // use text as clipping mask for bg
+  }
+
+  &::selection {
+    color: white;
+    background: darkorchid;
+  }
+}
+
+
+.inputText{
+    width: 380px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: none;
+}
+
+.submitBtn{
+    padding: 10px;
+    width: 100px;
+    margin-top: 20px;
+    width: 200px;
+    background: linear-gradient(45deg, magenta, navy);
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 7px;
+}
+
+.createAccount{
+  cursor: pointer;
+  margin-top: 22px;
+}
+
+.createAccount :link{
+  text-decoration: none;
+}
+
+.errorMsg{
+  margin-left:60px;
+  background-color: red;
+  color: white;
+  width:380px;
+  text-align: center;
+  padding: 0px 5px;
+}

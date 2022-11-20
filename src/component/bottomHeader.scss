@@ -1,0 +1,97 @@
+.leafBg img{
+    margin: 0px auto;
+    width:1260px;
+    height:250px;
+    border-radius: 15px;
+}
+.bottomHeader{
+    //position:relative;
+    padding: 20px;
+   text-align: center;
+}
+.profileImg img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 7%;
+    bottom: 36%;
+    border-radius: 57px;
+}
+
+.profileImg div{
+    position: absolute;
+    left: 16%;
+    bottom: 35%;
+}
+.profileImg p{
+    font-size: 11px;
+    margin-top: -15px;
+}
+.editBg{
+    position: absolute;
+    bottom: 50%;
+    left: 93%;
+    cursor: pointer;
+}
+
+.editBgBtn{
+    background-color: white;
+    opacity: 0.5;
+    border: none;
+    padding: 5px;
+    width: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.editProfile button{
+    background-image: linear-gradient(to right, rgb(199, 61, 169), navy);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 108px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: 17px;
+}
+.editProfile
+{
+    left: -3%;
+    position: relative;
+}
+
+.banner-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.changeBanner{
+    position: fixed;
+    top:calc(100% - 500px);
+    left: 40%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.changeBanner img{
+    max-width: 150px;
+   
+}
+
+.saveBtn{
+    background-image: linear-gradient(to right, rgb(199, 61, 169), navy);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 17px;
+}

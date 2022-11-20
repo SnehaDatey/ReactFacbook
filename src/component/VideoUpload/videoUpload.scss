@@ -1,0 +1,44 @@
+.video-tab ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+text-align: left;
+border-bottom: 1px solid #ccc;
+}
+
+.video-tab li{
+    display: inline-block;
+    padding: 10px 74px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.video-tab li:hover, .video-tab li.active{
+color: darkmagenta;
+}
+
+.video-tab{
+    text-align: center;
+}
+
+.uploadSystemVideo_btn{
+border: 1px solid #ccc;
+padding: 5px;
+display: inline-block;
+margin-left:36px ;
+background-image: linear-gradient(to right, rgb(199, 61, 169), navy);
+color: white;
+height: 42px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.uploadSpan{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.inputFile{
+    opacity: 0;
+}

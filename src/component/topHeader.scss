@@ -1,0 +1,165 @@
+.imgSearch{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    height: 56px;
+    width: 1260px;
+    margin: 0px auto;
+    
+}
+.searchBar{
+    width: 250px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 11px;
+    border-radius: 15px;
+    border-color: gray;
+    border-width: thin;
+}
+.search{
+    margin-top: -53px;
+    margin-left: 50px;
+}
+.searchIcon{
+    margin-top: -29px;
+    margin-left: 233px;
+    color: grey;
+}
+
+.searchList ul{
+list-style: none;
+padding: 5px;
+margin-top: 10px;
+}
+.searchList ul li{
+    text-decoration: none;
+    color: black;
+    margin-left: -213px;
+    position: relative;
+    background: white;
+    
+    padding-left: 5px;
+
+}
+.divRight{
+    float: right;
+    padding: 10px;
+    position: relative;
+}
+
+.uploadVideo{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(199, 61, 169), navy);
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.uploadMore{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgb(199, 61, 169), navy);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    //position: relative;
+}
+
+.menubar{
+    //position: absolute;
+    height: 115px;
+    width: 75px;
+    color: navy;
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, rgb(199, 61, 169), navy);
+    margin-left: 122px;
+    margin-top: 7px;
+    box-shadow: 2px 1000px 1px #fff inset;
+    // font-weight: bold;
+   
+    text-align: center;
+    cursor: pointer;
+}
+
+.menubar ul{
+    list-style: none;
+}
+
+.menubar ul li a{
+text-decoration:none;
+font-weight: 500;
+}
+
+.menubar ul li a:hover{
+    color: mediumvioletred;
+}
+
+.uploadVideoModal{
+    background-color: rgb(243, 240, 240);
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    border: 1px solid #ccc;
+    width: 400px;
+   
+    top: 100px; // calc((100% - 100px)/2);
+    left: calc((100% - 400px)/2);
+    box-shadow: 0 0 10px rgb(0,0,0,0.3);
+    z-index: 9;
+}
+
+.uploadVideoModal input{
+
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+    @supports (--css: variables) {
+      background: linear-gradient(45deg, rgb(228, 62, 172), navy); // create bg gradient
+      color: transparent; // hide text fill
+      background-clip: text; // use text as clipping mask for bg
+    }
+  
+    &::selection {
+      color: white;
+      background: darkorchid;
+    }
+}
+
+.uploadBtn{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(199, 61, 169), navy);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+
+.uploadVideo_overlay{
+    position: fixed;
+    z-index: 8;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.3;
+}

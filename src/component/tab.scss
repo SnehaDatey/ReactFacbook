@@ -1,0 +1,64 @@
+// App.css
+
+/* Remove browser defaults */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  // Style App.js wrapper
+  .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    //align-items: center;
+   // justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Tab Container */
+  .Tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    width: 1260px;
+    margin-top: 70px;
+    margin-left: 45px;
+  }
+
+  .tab-item{
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .tab-content{
+    margin-left: 45px;
+  }
+  .tab-item.active{
+    border-bottom: 3px solid black;
+    font-weight: 500;
+  }
+
+  .video-list{
+    display: inline-block;
+    padding: 10px;
+    margin-left: -14px;
+  }
+ 
+ 
+  .videoDiv{
+    display: flex;
+    justify-content: space-between;
+    //border: 1px solid black;
+    
+    margin-right: -65px;
+  }
+
+  video{
+    border-radius: 10px;
+  }
+.footerp{
+  font-size: 12px;
+  color: rgb(212, 207, 207);
+}
+
+
+/***************************************************************************************************/
